@@ -26,8 +26,17 @@ function rev {
     [array]::Reverse($char)
     return -join $char
 }
-$b64Data = "J3Jlbm9aJywndG5pb1Aga2NlaEMgeWIgbXJhbEFlbm9aJywnYXlsbGlaJywneGVkbmFZJywncmVkbmVmZUQgc3dvZG5pVycsJ3Rvb3JiZVcnLCd0b29yYmVXJywneWdvbG9uaGNlVCB3YXNyYVcnLCdUSXJpVicgICAgCiwndG9ib1JpVicsJ0VSUElWJywnMjNBQlYnLCdsbGFDZXN1b0gtb3JjaU1kbmVyVCcsJ29yY2lNZG5lclQnLCd4aWxsZXJUJywnZW5pbXBhclQnLCd0bmVjbmVUJywnU0lSVEhFVCcgICAgCiwnTk9ZSENBVCcsJ2NldG5hbXlTJywnc29ocG9TJywnZW5PbGVuaXRuZVMnLCdlZ0FlcnVjZVMnLCdvcmVaIGVuaWduRSByb2ZnbmFTJywnZXJhd3lwU2l0bkFSRVBVUycsJ2duaXNpUicgICAgCiwnbGFlSGtjaXVRJywnYWRuYVAnLCdza3Jvd3RlTiBvdGxBIG9sYVAnLCd3b2xmdGVOJywnbm90cm9OJywnc3VyaXZpdG5BLU9OQU4nLCdub2l0aWRFLVdHLWVlZkFjTScsJ2VlZkFjTScgICAgCiwnZXJ1Y2VTeGFNJywnc2V0eWJlcmF3bGFNJywnWEFNJywnY2lub2lMJywndGZvc2duaUsnLCdzdXJpdi1pdG5BIHlrc3JlcHNhSycsJ1dHN0snLCdzdXJpVml0bkE3SycgICAgCiwnbmltZ25haUonLCdzdXJha0knLCd0Zm9zbmlkaXJHJywnZWxnb29HJywnYXRhREcnLCdBVEFEIEcnLCd0ZW5pdHJvRicsJ2VydWNlUy1GJywndGZvc2lzbUUnLCdjaXRzYWxFJywnbmFjU2UnICAgIAosJ3RuaW9wZG5FIE1TRScsJzIzRE9OLVRFU0UnLCdiZVdyRCcsJ0FCUCBsbGVEJywnbmVyeUMnLCd0ZW55QycsJ2VjbmFseUMnLCdub3NhZXJlYnlDJywnbm9jbGFGIGVraXJ0U2R3b3JDJyAgICAKLCdvZG9tb0MnLCdWQW1hbEMnLCdDTUMnLCdvclAgdmFrQicsJ2F0ZWhUcmVkbmVmZUR0aUInLCdyZWRuZWZlRHRpQicsJ3VkaWFCJywnYXJpdkEnLCd0c2F2QScgICAgCiwndGliYWNyQScsJ0xWQS15aXRuQScsJ2FiYWJpbEEnLCczVi1iYUxuaEEnLCdlcmF3QS1kQScsJ3Npbm9yY0EnLCdzdXJpdml0bkEgR1ZBJywnY2FZTEEnLCcwNjMn"
-$Basee = [System.Text.Encoding]::UTF8.GetString([System.Convert]::FromBase64String($b64Data)) -split ','
+$Basee = @(
+    'renoZ','tnioP kcehC yb mralAenoZ','aylliZ','xednaY','rednefeD swodniW','toorbeW','toorbeW','ygolonhceT wasraW','TIriV'    
+,'toboRiV','ERPIV','23ABV','llaCesuoH-orciMdnerT','orciMdnerT','xillerT','enimparT','tnecneT','SIRTHET'    
+,'NOYHCAT','cetnamyS','sohpoS','enOlenitneS','egAeruceS','oreZ enignE rofgnaS','erawypSitnAREPUS','gnisiR'    
+,'laeHkciuQ','adnaP','skrowteN otlA olaP','wolfteN','notroN','surivitnA-ONAN','noitidE-WG-eefAcM','eefAcM'    
+,'eruceSxaM','setyberawlaM','XAM','cinoiL','tfosgniK','suriv-itnA yksrepsaK','WG7K','suriVitnA7K'    
+,'nimgnaiJ','surakI','tfosnidirG','elgooG','ataDG','ATAD G','tenitroF','eruceS-F','tfosismE','citsalE','nacSe'    
+,'tniopdnE MSE','23DON-TESE','beWrD','ABP lleD','neryC','tenyC','ecnalyC','nosaerebyC','noclaF ekirtSdworC'    
+,'odomoC','VAmalC','CMC','orP vakB','atehTrednefeDtiB','rednefeDtiB','udiaB','arivA','tsavA'    
+,'tibacrA','LVA-yitnA','ababilA','3V-baLnhA','erawA-dA','sinorcA','surivitnA GVA','caYLA','063'
+)
 $found = @()
 foreach ($obs in $Basee) {
     $avs = rev $obs
