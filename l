@@ -1,1 +1,1 @@
-zdn2.store
+https://zdn2.store/
