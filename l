@@ -1,1 +1,1 @@
-cdn01.site
+zdn2.store
